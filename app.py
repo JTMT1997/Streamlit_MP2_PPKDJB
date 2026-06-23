@@ -13,7 +13,7 @@ if "username" not in st.session_state:
 # Halaman login / input nama
 if st.session_state.username is None:
     st.title("🏥 Form Login")
-    st.subheader("Silakan masukkan nama Anda terlebih dahulu baru bisa masuk")
+    st.subheader("Silakan masukkan nama Anda terlebih dahulu, setelah itu bisa melihat")
 
     with st.form("form_nama"):
         nama = st.text_input("Nama")
